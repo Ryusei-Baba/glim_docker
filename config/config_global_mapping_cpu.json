@@ -13,13 +13,14 @@
     // Registration error factors
     "registration_error_factor_type": "VGICP",
     "randomsampling_rate": 0.2,
-    "submap_voxel_resolution": 0.5,
+    // "submap_voxel_resolution": 0.15,//屋内用
+    "submap_voxel_resolution": 2.0,//屋外用
     "submap_voxelmap_levels": 1,
     "submap_voxelmap_scaling_factor": 2.0,
     "max_implicit_loop_distance": 100.0,
     "min_implicit_loop_overlap": 0.2,
     // Optimizer settings
-    "use_isam2_dogleg": false,
+    "use_isam2_dogleg": true,//false,
     "isam2_relinearize_skip": 1,
     "isam2_relinearize_thresh": 0.1
   }
