@@ -48,8 +48,8 @@
     "isam2_relinearize_thresh": 0.1,
     "fix_imu_bias": false,
     // Voxel params
-    // "voxel_resolution": 0.1,//屋内用
-    "voxel_resolution": 1.0,//屋外用    
+    "voxel_resolution": 0.1,//屋内用
+    //"voxel_resolution": 1.0,//屋外用    
     "voxel_resolution_max": 0.5,
     "voxel_resolution_dmin": 5.0,
     "voxel_resolution_dmax": 20.0,

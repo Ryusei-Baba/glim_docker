@@ -24,7 +24,7 @@
     "random_downsample_target": 5000,//10000,
     "random_downsample_rate": 0.1,
     "enable_outlier_removal": true,//false,
-    "outlier_removal_k": 10,
+    "outlier_removal_k": 30,//10,
     "outlier_std_mul_factor": 1.0,
     "enable_cropbox_filter": false,
     "crop_bbox_frame": "lidar",
